@@ -1,3 +1,5 @@
+🔙 [Windows Dual Boot Instructions](https://github.com/ahaddad91/OdinMultiBootGuides/blob/main/pages/odin_dualboot_windows_guide.md)
+
 # Preparing the Odin and Files
 
 ## Preparing the software
@@ -6,7 +8,7 @@
 
 2. Extract the contents of `odin_custom_boot_1.0.3.7z` into a folder.
 
-3. Extract the contents of `odin_windows_installer.7z` into a separate folder and put the `install.wim` you selected in the `images` folder.
+3. Extract the contents of `odin_windows_installer.7z` into a separate folder and put the `install.swm` and `install2.swm` you selected in the `images` folder.
 
 ## Odin Device Preparation
 
@@ -24,9 +26,9 @@ The Odin will reboot to fresh start Android when the configuration has completed
 
 ## USB Stick Preparation
 
-1. While that is flashing is the perfect time to setup your USB drive. Copy the contents of the `odin_windows_installer` folder onto the root of your FAT32 formatted USB drive. Make sure the `install.wim` file is in the `images` folder.
+1. While that is flashing is the perfect time to setup your USB drive. Copy the contents of the `odin_windows_installer` folder onto the root of your FAT32 formatted USB drive. Make sure the `install.swm` and `install2.swm` file is in the `images` folder.
 2. If you have **Model: Odin_M2** then you need to replace Sensor Config driver, Extract `qcSensorsConfig850-M2.zip` and replace files inside `\installer\drivers\qcSensorsConfig850` with the new one. **This will solve upside down screen problem in Windows**.
 
 ## Step 2
 
-[Installing Windows](https://github.com/ProjectValhalla/OdinMultiBootGuides/blob/main/pages/installing_windows.md)
+[Installing Windows](https://github.com/ahaddad91/OdinMultiBootGuides/blob/main/pages/installing_windows.md)
